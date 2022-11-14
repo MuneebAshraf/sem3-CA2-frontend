@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 PROJECT_NAME="react-frontend"
-# DROPLET_URL="YOUR_WEBSITE_URL"
+DROPLET_URL="https://cod3r.dk"
 # echo -n "please enter the project name as it appears on the server in /var/www/"
 # read -r 
 # PROJECT_NAME=$REPLY
-echo -n "please enter the droplet url (e.g myserver.dk): "
-read -r
-DROPLET_URL=$REPLY
+#echo -n "please enter the droplet url (e.g myserver.dk): "
+#read -r
+#DROPLET_URL=$REPLY
 
 echo "##############################"
 echo "Building the frontend project"
